@@ -1,0 +1,21 @@
+/* default style sheet (CSS) */
+
+/* style of the body */
+body { color: blue; background-color: #afeeee; }
+
+/* style of the headers */
+h3 {color: black; font-size: 36px; text-align: center; }
+h1 {color: black; font-size: 16px; text-align: left; }
+
+/* style of the lists */
+ul li { font-style: italic; }
+
+ul a { font-family: "comic sans ms", Arial, sans-serif; color: red; 
+       background: transparent; text-decoration: none; font-style: normal; }
+
+/* Anchor pseudo-classes */
+:link    { color: red; }
+:visited { color: #FF8000; }
+:active  { color: purple; }
+:hover   { color: black; }
+

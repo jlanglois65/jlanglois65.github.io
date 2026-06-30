@@ -1,0 +1,59 @@
+<HTML>
+
+<HEAD>
+<TITLE>Stock Search</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="style.css">
+</HEAD>
+
+<BODY>
+
+<APPLET CODEBASE=java CODE=StockSearch.class WIDTH=800 HEIGHT=100 ALIGN=left>
+<PARAM NAME=default_ticker  VALUE="MRCY">
+<PARAM NAME=wildcard        VALUE="$TICKER">
+<PARAM NAME=default_target  VALUE="DOCUMENT">
+
+<PARAM NAME=stock_1        VALUE="MRCY">
+<PARAM NAME=stock_2        VALUE="JKHY">
+<PARAM NAME=stock_3        VALUE="MCHP">
+<PARAM NAME=stock_4        VALUE="QQQ">
+<PARAM NAME=stock_5        VALUE="JNJ">
+<PARAM NAME=stock_6        VALUE="JBLU">
+<PARAM NAME=stock_7        VALUE="VAR">
+
+<PARAM NAME=label_1         VALUE="Quote/Chart">
+<PARAM NAME=href_1          VALUE="http://bigcharts.marketwatch.com/quickchart/quickchart.asp?symb=$TICKER&sid=0&o_symb=wmt&freq=1&time=8">
+
+<PARAM NAME=label_2         VALUE="Historical">
+<PARAM NAME=href_2          VALUE="http://chart.yahoo.com/t?a=12&b=01&c=96&g=m&s=$TICKER">
+
+<PARAM NAME=label_3 VALUE="Snapshot">
+<PARAM NAME=href_3	VALUE="http://quotes.fool.com/custom/fool/html-snapshot.asp?Symbols=$TICKER">
+
+<PARAM NAME=label_4	VALUE="Options">
+<PARAM NAME=href_4	VALUE="http://host.wallstreetcity.com/wsc2/Call_Options.html?Category=Best_Options&Type=1&Symbol=$TICKER">
+
+<PARAM NAME=label_5 VALUE="Realtime"
+<PARAM NAME=href_5 VALUE="http://quotes.freerealtime.com/rt/frt/M?SA=quotes|Quote&IM=quotes&symbol=$TICKER&type=Quote&">
+
+<PARAM NAME=label_6	VALUE="Ownership">
+<PARAM NAME=href_6 VALUE="http://moneycentral.msn.com/investor/invsub/ownership/ownership.asp?Symbol=$TICKER">
+
+<PARAM NAME=label_7	VALUE="NASDAQ">
+<PARAM NAME=href_7 VALUE="http://www.nasdaq.com/asp/quotes_reports.asp?symbol=$TICKER%60&selected=$TICKER%60">
+
+<PARAM NAME=label_8	VALUE="Clear Station">
+<PARAM NAME=href_8	VALUE="http://www.clearstation.com/cgi-bin/details?Event=peek&Symbol=$TICKER&Refer=http://www.clearstation.com/cgi-bin/events">
+
+<PARAM NAME=label_9	VALUE="Yahoo! Finance">
+<PARAM NAME=href_9	VALUE="http://quote.yahoo.com/q?d=t&s=$TICKER">
+
+<PARAM NAME=label_10   VALUE="BarChart">
+<PARAM NAME=href_10     VALUE="http://charts3.barchart.com/procal.htx?sym=$TICKER">
+
+<PARAM NAME=label_11   VALUE="Zacks">
+<PARAM NAME=href_11   VALUE="http://www.zacks.com/research/report.php?t=$TICKER&type=report&x=17&y=13">
+
+</APPLET>
+
+</BODY>
+</HTML>

@@ -1,0 +1,264 @@
+<!-- HTML document created using Webford 2.01 -->
+<!-- on Thursday 30 JULy 1998 at 3:25 PM -->
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<TITLE>Online Trading</title>
+<BASE TARGET="_top">
+<LINK REL="stylesheet" TYPE="text/css" HREF="style.css">
+</HEAD>
+
+<BODY>
+
+<H3><A NAME="Trading"></A>Stock Trading</H3>
+<TABLE><COLGROUP SPAN=2 WIDTH=40%></COLGROUP>
+<TR ALIGN=TOP>
+<TD><UL>
+	<LI><A HREF="#Option">Option</A>
+	<LI><A HREF="#Chart">Chart</A>
+	<LI><A HREF="#Quote">Quotes</A>
+  <LI><A HREF="#Research">Stock Research</A>
+	<LI><A HREF="#Ideas">Stock Ideas</A>
+	<LI><A HREF="#Education">Education</A>
+	<LI><A HREF="#Screener">Stock Screens</A>
+	<LI><A HREF="#ETF">ETF</A>
+	<LI><A HREF="#Future">Future</A>
+	<LI><A HREF="#Commodity">Commodity</A>
+  <LI><A HREF="#Economy">Economy</A>
+</UL>
+<TD ALIGN=RIGHT>
+  <TABLE>
+  <TR>
+    <TD><H4>Stock Search</H4>
+	  <TD ALIGN=CENTER>Enter Symbol(s)
+  <TR>
+    <FORM METHOD=POST ACTION="http://finance.yahoo.com/q">
+    <TD><INPUT TYPE=SUBMIT VALUE="Show Quote ">
+    <TD><INPUT TYPE=TEXT   SIZE=15 NAME="s">
+    </FORM>
+  <TR>
+    <FORM METHOD=GET ACTION="http://finance.yahoo.com/q/ta">
+	    <INPUT TYPE=HIDDEN NAME=t   VALUE="6m">
+	    <INPUT TYPE=HIDDEN NAME=l   VALUE="off">
+	    <INPUT TYPE=HIDDEN NAME=z   VALUE="l">
+	    <INPUT TYPE=HIDDEN NAME=q   VALUE="c">
+	    <INPUT TYPE=HIDDEN NAME=p   VALUE="m10,m20">
+	    <INPUT TYPE=HIDDEN NAME=a   VALUE="vm">
+    <TD><INPUT TYPE=SUBMIT VALUE="Draw Chart ">
+    <TD><INPUT TYPE=TEXT   SIZE=15 NAME="s">
+    </FORM>
+  <TR>
+    <FORM METHOD=GET ACTION="http://stockcharts.com/def/servlet/SC.pnf">
+    <TD><INPUT TYPE=SUBMIT VALUE="P&F Chart">
+    <TD><INPUT TYPE=TEXT   SIZE=15 NAME="c">
+	<TD><LABEL>Add ,P</LABEL>
+    </FORM>
+  <TR>
+	<!-- 	
+    <FORM METHOD=GET 
+	ACTION="http://www.pcquote.com/options/optionstrings.php">
+	    <INPUT TYPE=HIDDEN NAME=RANGE      VALUE="10.5">
+		<INPUT TYPE=HIDDEN NAME=FIRSTMONTH VALUE="0">
+		<INPUT TYPE=HIDDEN NAME=MONTHS     VALUE="6">
+    <TD><INPUT TYPE=SUBMIT VALUE="Show Option">
+    <TD><INPUT TYPE=TEXT   SIZE=15 NAME="symbol">
+    </FORM>
+		-->
+    <FORM METHOD=GET 
+	ACTION="http://oic.ivolatility.com/oic_adv_options.j">
+    <TD><INPUT TYPE=SUBMIT VALUE="Show Option">
+    <TD><INPUT TYPE=TEXT   SIZE=15 NAME="ticker">
+    </FORM>
+  <TR>
+    <FORM METHOD=GET ACTION="http://www.pcquote.com/options/greeks.php">
+	  <INPUT TYPE=HIDDEN NAME=RANGE      VALUE="10.5">
+		<INPUT TYPE=HIDDEN NAME=FIRSTMONTH VALUE="0">
+		<INPUT TYPE=HIDDEN NAME=MONTHS     VALUE="6">
+    <TD><INPUT TYPE=SUBMIT VALUE="Show Greeks">
+    <TD><INPUT TYPE=TEXT   SIZE=15 NAME="symbol">
+    </FORM>
+  <TR>
+    <FORM METHOD=POST ACTION="http://www.schaeffersresearch.com/streetools/stock_quotes.aspx">
+    <TD><INPUT TYPE=SUBMIT VALUE="Show SOIR  ">
+    <TD><INPUT TYPE=TEXT   SIZE=15 NAME="ticker_symbol">
+    </FORM>
+  <TR>
+    <FORM METHOD=POST ACTION="http://quote.barchart.com/techrept.asp">
+    <TD><INPUT TYPE=SUBMIT VALUE="Technical Report">
+    <TD><INPUT TYPE=TEXT   SIZE=15 NAME="sym">
+    </FORM>
+  <TR>
+    <FORM METHOD=POST ACTION="http://www.zacks.com/research/report.php">
+    <TD><INPUT TYPE=SUBMIT VALUE="Overview">
+		<INPUT TYPE=HIDDEN VALUE="type=report">
+    <TD><INPUT TYPE=TEXT   SIZE=15 NAME="t">
+    </FORM>
+  </TABLE>
+</TABLE>
+
+<H3><A NAME="Chart"></A>Stock Charts</H3>
+<UL>
+  <LI><A HREF="http://www.stockta.com/">Stock Technical Analysis</A>
+  <LI><A HREF="http://www.clearstation.com/">ClearStation</A>
+	<LI><A HREF="http://www.prophet.net/default.jsp">Prophet.Net</A>
+	<LI><A HREF="http://bigcharts.marketwatch.com/">Big Charts</A> Charts, indicators and quotes on stocks, mutual funds and
+        major market indexes.
+  <LI><A HREF="http://www.stockcharts.com/">Stock Charts</A>
+  <LI><A HREF="http://www.barchart.com">BarChart.com</A> includes technical report
+	<LI><A HREF="http://www.incrediblecharts.com/">Incredible Chart</A> Free Download charting software
+</UL>
+
+<H3><A NAME="Quote"></A>Stock Quotes</H3>
+<UL>
+  <LI><A HREF="http://www.quotemedia.com/">QuoteMedia</A>
+  <LI><A HREF="http://www.nasdaq.com/">NASDAQ</A>
+  <LI><A HREF="http://quotes.freerealtime.com/rt/frt/startpage">Free Realtime Quotes</A>
+  <LI><A HREF="http://www.barchart.com">BarChart.com</A>
+	<LI><A HREF="http://www.pcquote.com/">PCQuote</A>
+</UL>
+
+<H3><A NAME="Option"></A>Stock Options</H3>
+<UL>
+	<LI><A HREF="http://biz.yahoo.com/opt/">Yahoo! Options Center</A>
+  <LI><A HREF="http://www.poweropt.com/strategymenu.asp">Power Options</A> Strategy Help Menu
+	<LI><A HREF="http://www.ivolatility.com/">iVolatility</A>
+	<LI><A HREF="http://www.schaeffersresearch.com/">Schaeffers Research</A> Online Resources for Stock and Options Traders
+	<LI><A HREF="http://www.optioninvestor.com/">Option Investor</A>
+	<LI><A HREF="http://www.optionetics.com/">Optionetics</A>
+  <LI><A HREF="http://www.888options.com/">888-OPTIONS</A> 
+	<LI><A HREF="http://www.21stcenturyoptionseducation.com/">21st Century Education</A>
+	<LI><A HREF="http://www.optionvueresearch.com/index.cfm?opr=main.edu">OptionVue - Education</A>
+	<LI><A HREF="http://www.cboe.com/Home/Default.asp">CBOE</A>
+	<LI><A HREF="http://www.optionsxpress.com/">OptionsXpress</A>
+	<LI><A HREF="http://bigtrends.com/">Big Trends</A>
+	<LI><A HREF="http://www.option-wizard.com/">Option Wizard</A>
+	<LI><A HREF="http://www.optionstrategist.com/">The Option Strategist</A>
+	<LI><A HREF="http://www.hoadley.net/options/options.htm">Options Strategy AnalyticTools by Peter Hoadley</A> Option Pricing Calculators
+</UL>
+
+<H3><A NAME="Research"></A>Stock Research</H3>
+<UL>
+  <LI><A HREF="http://www.marketedge.com/">MarketEdge</A> Technical Analysis
+  <LI><A HREF="http://www.istockresearch.com/">iStockResearch</A>
+  <LI><A HREF="http://edgarscan.pwcglobal.com/servlets/edgarscan">Edgar Scan</A>
+  <LI><A HREF="http://www.valuecruncher.com/>Value Cruncher</A> Free DCF tool
+  <LI><A HREF="http://www.americanbulls.com/">American Bulls</A>
+  <LI><A HREF="http://www.allstocks.com/">All Stocks</A>
+  <LI><A HREF="http://www.nasdaq.com/">NASDAQ</A>
+	<LI><A HREF="http://www.morningstar.com/">Morningstar</A>
+  <LI><A HREF="http://www.vcall.com">vcall - investor broadcast network</A> broadcast of conference call 
+	<LI><A HREF="http://www.marketguide.com">Market Guide Inc.</A> Give one page company report with access to a glossary of terminology. Quality Financial Information, Historical EPS &amp; revenues per quarter.
+  <LI><A HREF="http://www.clearstation.com/">ClearStation</A> Technical Analysis Data for a stock
+  <LI><A HREF="http://moneycentral.msn.com/home.asp">MSN - MoneyCentral</A>
+  <LI><A HREF="http://www.sec.gov/">US Securities &amp; Exchange Commission</A> Real-time SEC filings,
+        personalized watch list and instant filing alerts. 
+      <A HREF="http://sec.gov/xbrl"> Interactive Data Viewers</A>
+  <LI><A HREF="http://www.hoovers.com/">Hoover's</A> Profiles  of public and private companies including strategy and
+        financial performance. 
+  <LI><A HREF="http://quote.yahoo.com/?u">Yahoo - Finance</A> 
+  <LI><A HREF="http://www.investorlinks.com/">Investor Links</A>
+	<LI><A HREF="http://www.investorguide.com/">Investor Guides</A>
+	<LI><A HREF="http://www.cob.ohio-state.edu/cgi-bin/DB_Search/db_search.cgi?setup_file=finance.setup.cgi">Financial Data Finder</A>
+</UL>
+
+<H3><A NAME="Ideas"></A>Stock Ideas</H3>
+
+<UL>
+  <LI><A HREF="http://www.briefing.com/Investor/Index.htm">Briefing</A>
+	<LI><A HREF="http://www.rightline.net/">RightLine</A>
+	<LI><A HREF="http://powerratings.net/">Power Ratings</A>
+  <LI><A HREF="http://www.zacks.com/">Zacks Research Reports</A> Company information and research, changes in earnings
+        estimates and stock recommendations. 
+  <LI><A HREF="http://www.fool.com">The Motley Fool: Finance and Folly</A> 
+	<LI><A HREF="http://www.2000wave.com/index.asp">John Mauldin's Weekly Newsletter</A>
+</UL>
+
+<H3><A NAME="Education"></A>Education</H3>
+<UL>
+  <LI><A HREF="http://www.moneychimp.com/">MoneyChimp</A>
+  <LI><A HREF="http://www.sfomag.com/index.asp">Stock, Futures & Options Magazine</A>
+  <LI><A HREF="http://www.candlesticker.com/Default.asp">Candlesticker</A> Candlestick chart patterns explained
+  <LI><A HREF="http://www.publicdebt.treas.gov/">Government T-Bills, Notes, Bonds</A>
+	<LI><A HREF="http://www.incrediblecharts.com/technical/indicators.htm">Incredible Charts - Technical Indicators</A>
+	<LI><A HREF="http://www.marketscreen.com/help/atoz/default.asp">Technical Analysis from A to Z</A>
+	<LI><A HREF="http://www.chartfilter.com/">Chart Filter</A> Technical Analysis Explain
+  <LI><A HREF="http://www.echarts.com/">eCharts.com</A> technical analysis <A HREF="http://www.echarts.com/AnalysisToday/Articles/">articles</A>
+  <LI><A HREF="http://www.metaquotes.net/techanalysis/">Metaquotes - Technical Analysis</A>
+	<LI><A HREF="http://www.ibm.com/FinancialGuide/">Guide to understanding Financial Statements</A> 
+  <LI><A HREF="http://www.investorwords.com">Investor Words</A> Investing Glossary
+	<LI><A HREF="http://www.investopedia.com/">Investopedia</A>
+	<LI><A HREF="http://www.moneychimp.com/">MoneyChimp</A> Investor Education and Financial Calculators
+  <LI><A HREF="http://www.economagic.com/">Economagic</A> Economic Time Series (Free)
+	<LI><A HREF="http://www.contraryinvestor.com/">Contrary Investor</A>
+	<LI><A HREF="http://bigpicture.typepad.com/">The Big Picture</A>
+	<LI><A HREF="http://www.smallinvestors.com/">Small Investors</A>
+	<LI><A HREF="http://tal.marketgauge.com/MGHome/MGhome.asp">Market Gauge</A>
+	<LI><A HREF="http://www.contrarian-investing.com/">Contrarian Investing</A>
+	<LI><A HREF="http::/www.tradestation.com/">Trade Station</A>
+</UL>
+
+<H3><A NAME="Screener"></A>Stock Screens</H3>
+<UL>
+  <LI><A HREF="http://www.marketscreen.com/">Market Screen</A> goto bottom of the page for free screening
+  <LI><A HREF="http://www.chartfilter.com/ap/login.do">Chart Filter</A>
+  <LI><A HREF="http://www.zacks.com/research/screening/index.php">Zacks Screening Tools</A>
+  <LI><A HREF="http://www.wallstreetcity.com/search/search_backtestedprebuilt.asp">WallStreetCity</A> Back tested searches
+  <LI><A HREF="http://screener.finance.yahoo.com/newscreener.html">Yahoo Stock Screener</A>
+  <LI><A HREF="http://www.investor.reuters.com/GoTo.aspx?nss=www&.t=/opinion/find/screener">Reuters Power Screener</A>
+  <LI><A HREF="http://www.quicken.com/investments/stocks/search/">Quicken</A>
+  <LI><A HREF="http://moneycentral.msn.com/investor/finder/predefstocks.aspx?Symbol=MSFT">MSN - Money Central</A>
+</UL>
+
+<H3><A NAME="ETF"></A>ETF</H3>
+<UL>
+  <LI><A HREF="http://finance.yahoo.com/etf">Yahoo Finance</A>
+  <LI><A HREF="http://www.smartmoney.com/etf/">Smart Money</A>
+  <LI><A HREF="http://www.morningstar.com/Cover/ETF.html">Morningstar</A>
+  <LI><A HREF="http://www.proshares.com/funds">ProShares</A> Inverse ETF
+  <LI><A HREF="http://www.holdrs.com/">HOLDRS</A>
+  <LI><A HREF="http://www.ishares.com/">iShares</A>
+  <LI><A HREF="http://www.spdrindex.com/">Select Sector SPDRs</A>
+  <LI><A HREF="http://www.powershares.com/onlineproductinfo.aspx">PowerShares</A>
+  <LI><A HREF="http://www.vanguard.com/jumppage/vipers/">Vanguard</A>
+  <LI><A HREF="http://etfzone.com/">ETF Zone</A>
+  <LI><A HREF="http://www.etfconnect.com/">ETF Connect</A>
+  <LI><A HREF="http://moneycentral.msn.com/content/common/P118061.asp">MSN Money</A>
+  <LI><A HREF=""></A>
+</UL>
+
+<H3><A NAME="Future"></A>Future</H3>
+<UL>
+  <LI><A HREF="http://www.wallstreetcourier.com/home.htm">Wall Street Courier</A> -> 
+      <A HREF="http://www.wallstreetcourier.com/technician/traders-commitments/general-info.htm">Commitment of Traders Report</A>
+  <LI><A HREF="http://www.chartbook.com/">Chartbook</A> Free online future Charting
+  <LI><A HREF="http://www.thepitmaster.com/">Pit Master</A> ->
+      <A HREF="http://www.thepitmaster.com/cot/cot.htm">Commitment of Traders</A>
+  <LI><A HREF="http://technicalindicators.com/stockmarket.htm">Technical Indicators</A> ->
+	    <A HREF="http://technicalindicators.com/cotstocks.htm">COT Stock</A>
+</UL>
+
+<H3><A NAME="Commodity"></A>Commodity</H3>
+<UL>
+  <LI><A HREF="http://www.crbtrader.com/">CRB</A>
+  <LI><A HREF="http://chinese-school.netfirms.com/commodities-futures.html">Commodity Futures</A>
+  <LI><A HREF="http://www.rogersrawmaterials.com/">Rogers Raw Material</A>
+  <LI><A HREF="http://www.aginvestor.com/aglinks.htm">Links to Agriculture and Investing Resources</A>
+  <LI><A HREF="http://www.aginvestor.com/aglinks.htm">Futures Knowledge </A>
+</UL>
+
+<H3><A NAME="Economy"></A>Economy</H3>
+<UL>
+  <LI><A HREF="http://economicsnapshots.com/">Economic Snapshots</A>
+  <LI><A HREF="http://www.census.gov/cgi-bin/briefroom/BriefRm">US Census Bureau - Economic Indicators</A>
+  <LI><A HREF="http://www.economy.com/freelunch/default.asp">Free Lunch @ economy.com</A> free access for economic and financial data series
+  <LI><A HREF="http://research.stlouisfed.org/index.html">Economic Research @ the St.Louis Federal Reserve Bank</A>
+  <LI><A HREF="http://www.cob.ohio-state.edu/cgi-bin/DB_Search/db_search.cgi?setup_file=finance.setup.cgi">Financial Data Finder</A>
+  <LI><A HREF="http://www.bea.gov/">Bureau of Economic Analysis @ US Dept Commerce</A> & 
+      <A HREF="http://www.bea.gov/newsreleases/glance.htm">US Economy at a Glance</A>
+  <LI><A HREF="http://www.bls.gov/">US Department of Labor</A> & 
+      <A HREF="http://www.bls.gov/eag/eag.us.htm">US Economy at a Glance</A>
+</UL>
+</BODY>
+</HTML>
